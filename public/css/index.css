@@ -1,0 +1,43 @@
+header {
+  margin: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+header nav ul li {
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  font-size: 20px;
+  margin-top: -30px;
+  font-weight: bold;
+  color: #037272 !important;
+}
+
+body {
+  background-image: url("../../img/background-1.jpg");
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+section #carouselExampleFade {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section #carouselExampleFade img {
+  width: 1000px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,23 @@
+{
+  "name": "jf-solution",
+  "version": "0.0.0",
+  "description": "Site web de JF-Solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonathanBerlemont/JF-Solution"
+  },
+  "author": "Jonathan Berlemont",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/JonathanBerlemont/JF-Solution/issues"
+  },
+  "dependencies": {
+    "popper.js": "~1.14.6",
+    "jquery": "~3.3.1",
+    "bootstrap": "~4.2.1"
+  }
+}

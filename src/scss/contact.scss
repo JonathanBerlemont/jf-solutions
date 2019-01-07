@@ -1,0 +1,48 @@
+@import "./header.scss";
+@import "./fontawesome.scss";
+
+$colors: (
+    primary: rgb(121,251,251),
+    primary-mid: darken(rgb(121,251,251), 50%),
+    primary-dark: darken(rgb(121,251,251), 65%),
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+body {
+    background-image: url("../../img/background-1.jpg");
+}
+
+section {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    h1 {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        color: color(primary-mid);
+    }
+
+    #submitButton {
+        color: color(primary);
+        background-color: color(primary-mid);
+    }
+
+    #info {
+        border: solid color(primary-mid) 2px;
+        
+        i {
+            color: color(primary-mid);
+            font-size: 40px;
+        }
+        hr {
+            border-color: color(primary);
+            width: 50%;
+        }
+    }
+}
