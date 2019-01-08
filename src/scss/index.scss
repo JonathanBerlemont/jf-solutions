@@ -1,4 +1,4 @@
-@import "./header.scss";
+@import "./_header.scss";
 
 $colors: (
     primary: rgb(121,251,251),
@@ -14,19 +14,25 @@ body {
 }
 
 section {
-    width: 80%;
+    width: 700px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: white;
     #carouselExampleFade {
-        width: 90%;
+        width: 600px;
         margin: auto;
         padding-top: 20px;
         padding-bottom: 20px;
-        img {
-            width: 1000px;
+
+        #carousel-inner {
+            width: 500px !important;
+
+            img {
+                width: 100%;
+            }
         }
+        
     } 
       
 }

@@ -23,7 +23,7 @@ body {
 }
 
 section {
-  width: 80%;
+  width: 700px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -31,13 +31,17 @@ section {
 }
 
 section #carouselExampleFade {
-  width: 90%;
+  width: 600px;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-section #carouselExampleFade img {
-  width: 1000px;
+section #carouselExampleFade #carousel-inner {
+  width: 500px !important;
+}
+
+section #carouselExampleFade #carousel-inner img {
+  width: 100%;
 }
 /*# sourceMappingURL=index.css.map */

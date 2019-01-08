@@ -1,4 +1,2 @@
-/node_modules/bootstrap
-/node_modules/jquery
-/node_modules/popper.js
-/vid
+/node_modules/
+.vs
