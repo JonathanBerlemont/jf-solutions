@@ -4,7 +4,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 2;
-  background-image: url(../../img/background-2.jpg);
+  background-image: url(../../img/HeaderBackGnd.png);
 }
 
 header nav ul li {
@@ -19,7 +19,7 @@ header nav ul li a {
 }
 
 body {
-  background-image: url("../../img/gears-1359431_1920.jpg");
+  background-image: url("../../img/background-1.png");
 }
 
 section {
