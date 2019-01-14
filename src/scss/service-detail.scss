@@ -23,8 +23,8 @@ section {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-bottom: 20px;
-    
+
+
     h1 {
         text-align: center;
         padding-top: 10px;
@@ -32,30 +32,5 @@ section {
         span {
             color: color(primary-mid);
         }
-    }
-    .service {
-        width: 90%;
-        margin: auto;
-        margin-top: 20px;
-        
-        h2 {
-            color: color(primary-mid);
-        }
-        img {
-            width: 100px;
-            height: 100px;;
-            display: block;
-            float: right;
-        }
-    }
-
-    a {
-        color: color(primary);
-        display: block;
-        width: 120px;
-        height: 50px;
-        background-color: color(primary-mid);
-        text-align: center;
-        padding-top: 15px;
     }
 }

@@ -4,7 +4,17 @@ header {
     top: 0;
     z-index: 2;
     background-image: url(../../img/HeaderBackGnd.png); 
+    background-position: center;
     nav {
+        .navbar-brand {
+            img {
+                width:280px;
+                @media (max-width: 400px) {
+                    //Pour réduire le logo pour le format telephone
+                    width: 250px;
+                }
+            }
+        }
         ul {
             li {
                 margin: 0 20px;
@@ -13,6 +23,13 @@ header {
                     margin-top: -30px;
                     font-weight: bold;
                     color: darken(rgb(121,251,251), 50%) !important;
+                    
+                    
+                    @media (max-width: 990px){
+                        //Pour le moment ou la barre est réduite en bouton
+                        margin-top: 0;
+                        text-align: center;
+                    }
                 }
             }
         }  

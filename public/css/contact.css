@@ -4,7 +4,18 @@ header {
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: white;
+  background-image: url(../../img/HeaderBackGnd.png);
+  background-position: center;
+}
+
+header nav .navbar-brand img {
+  width: 280px;
+}
+
+@media (max-width: 400px) {
+  header nav .navbar-brand img {
+    width: 250px;
+  }
 }
 
 header nav ul li {
@@ -16,6 +27,13 @@ header nav ul li a {
   margin-top: -30px;
   font-weight: bold;
   color: #037272 !important;
+}
+
+@media (max-width: 990px) {
+  header nav ul li a {
+    margin-top: 0;
+    text-align: center;
+  }
 }
 
 /*!
@@ -5644,21 +5662,41 @@ section h1 {
   color: #037272;
 }
 
-section #submitButton {
+@media (max-width: 500px) {
+  section #forms {
+    width: 80% !important;
+  }
+}
+
+section #forms #submitButton {
   color: #79fbfb;
   background-color: #037272;
 }
 
-section #info {
-  border: solid #037272 2px;
+@media (max-width: 720px) {
+  section #forms #submitButton {
+    display: block;
+    margin: auto;
+  }
 }
 
-section #info i {
+section #forms #info {
+  border: solid #037272 2px;
+  width: 350px;
+}
+
+@media (max-width: 900px) {
+  section #forms #info {
+    width: 100%;
+  }
+}
+
+section #forms #info i {
   color: #037272;
   font-size: 40px;
 }
 
-section #info hr {
+section #forms #info hr {
   border-color: #79fbfb;
   width: 50%;
 }

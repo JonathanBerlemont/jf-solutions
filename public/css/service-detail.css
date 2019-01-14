@@ -37,8 +37,7 @@ header nav ul li a {
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url("../../img/background-2.jpg");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../../img/background-2.jpg");
+  background-image: url("../../img/background-1.jpg");
 }
 
 section {
@@ -58,23 +57,4 @@ section h1 {
 section h1 span {
   color: #037272;
 }
-
-section img {
-  width: 100%;
-}
-
-section #links {
-  margin-top: 50px;
-  text-align: center;
-}
-
-section #links a {
-  text-align: center;
-  margin: auto;
-  color: #037272;
-}
-
-section #links a i {
-  font-size: 50px;
-}
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=service-detail.css.map */
