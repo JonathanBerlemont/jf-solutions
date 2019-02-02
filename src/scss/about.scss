@@ -1,4 +1,5 @@
-@import "./header.scss";
+@import "./_header.scss";
+
 
 $colors: (
     primary: rgb(121,251,251),
@@ -12,7 +13,9 @@ $colors: (
 }
 
 body {
-    background-image: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) ), url("../../img/background-2.jpg");
+    background-image: url('../../img/background-1.png');
+    background-attachment: fixed; 
+    background-size: 100%;
 }
 
 section {
@@ -21,21 +24,23 @@ section {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+
+    span {
+        color: color(primary-mid);
+        font-weight: bold;
+    }
     
     h1 {
         text-align: center;
         padding-top: 10px;
         padding-bottom: 20px;
-        span {
-            color: color(primary-mid);
-        }
     }
     img {
         width: 100%;
     }
 
     #links {
-        margin-top: 50px;
+        margin-top: 3 0px;
         text-align: center;
         a {
             text-align: center;

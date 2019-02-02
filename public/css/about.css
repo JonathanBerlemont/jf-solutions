@@ -37,8 +37,9 @@ header nav ul li a {
 }
 
 body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url("../../img/background-2.jpg");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../../img/background-2.jpg");
+  background-image: url("../../img/background-1.png");
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 section {
@@ -49,14 +50,15 @@ section {
   margin-bottom: 50px;
 }
 
+section span {
+  color: #037272;
+  font-weight: bold;
+}
+
 section h1 {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
-}
-
-section h1 span {
-  color: #037272;
 }
 
 section img {
@@ -64,7 +66,7 @@ section img {
 }
 
 section #links {
-  margin-top: 50px;
+  margin-top: 3 0px;
   text-align: center;
 }
 

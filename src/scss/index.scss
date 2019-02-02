@@ -9,9 +9,10 @@ $colors: (
 @function color($color-name) {
     @return map-get($colors, $color-name);
 }
+
 body {
-    background-image: url("../../img/background-1.png");
-    background-position: center;
+    background-image: url('../../img/background-1.png');
+    background-attachment: fixed; 
     background-size: 100%;
 }
 

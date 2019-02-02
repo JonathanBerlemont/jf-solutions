@@ -1,4 +1,4 @@
-@import "./header.scss";
+@import "./_header.scss";
 
 $colors: (
     primary: rgb(121,251,251),
@@ -6,15 +6,15 @@ $colors: (
     primary-dark: darken(rgb(121,251,251), 65%),
 );
 
-$border-radius: 10px;
-
 @function color($color-name) {
     @return map-get($colors, $color-name);
     
 }
 
 body {
-    background-image: url('../../img/background-1.jpg');
+    background-image: url('../../img/background-1.png');
+    background-attachment: fixed; 
+    background-size: 100%;
 }
 
 section {
@@ -33,19 +33,64 @@ section {
             color: color(primary-mid);
         }
     }
-    .service {
-        width: 90%;
+
+    #services-list {
+        font-size: 25px;
+        margin-bottom: 100px;
+    }
+
+    #intro-services {
         margin: auto;
-        margin-top: 20px;
+        width: 80%;
+        font-size: 25px;
+        span {
+            color: color(primary-mid);
+        }
+
+        @media (max-width: 1000px) {
+            #arrow-right {
+                display: none;
+            }
+            .col-12{
+                margin: auto !important;
+                margin-top: 20px !important;
+                text-align: center !important;
+            }
+        }
+
+        @media (min-width: 1001px) {
+            #arrow-down {
+                display: none;
+            }
+        }
+    }
+
+    .service {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 15px;
+        border: solid gray 1px;
         
         h2 {
             color: color(primary-mid);
+
+            @media (max-width: 500px) {
+                text-align: center;
+            }
         }
         img {
-            width: 100px;
-            height: 100px;;
+            max-height: 100px;
+            width: auto;
             display: block;
             float: right;
+
+            @media (max-width: 500px) {
+                float: none;
+                margin: auto;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
         }
     }
 
@@ -56,6 +101,6 @@ section {
         height: 50px;
         background-color: color(primary-mid);
         text-align: center;
-        padding-top: 15px;
+        padding-top: 13px;
     }
 }
