@@ -68,7 +68,7 @@
                 </div>
 
                 <div class="form-group my-4">
-                    <label for="exampleFormControlTextarea1">Your message:</label>
+                    <label for="exampleFormControlTextarea1">Votre message:</label>
                     <textarea class="form-control" id="msg" rows="3" name="message" required></textarea>
                 </div>
 
