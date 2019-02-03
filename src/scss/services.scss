@@ -71,6 +71,10 @@ section {
         margin-top: 50px;
         padding: 15px;
         border: solid gray 1px;
+
+        span {
+            color: color(primary-mid);
+        }
         
         h2 {
             color: color(primary-mid);
@@ -84,6 +88,7 @@ section {
             width: auto;
             display: block;
             float: right;
+            margin: 10px;
 
             @media (max-width: 500px) {
                 float: none;

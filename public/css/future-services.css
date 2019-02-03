@@ -55,7 +55,6 @@ section {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding-bottom: 20px;
 }
 
 section h1 {
@@ -68,38 +67,6 @@ section h1 span {
   color: #037272;
 }
 
-section #services-list {
-  font-size: 25px;
-  margin-bottom: 100px;
-}
-
-section #intro-services {
-  margin: auto;
-  width: 80%;
-  font-size: 25px;
-}
-
-section #intro-services span {
-  color: #037272;
-}
-
-@media (max-width: 1000px) {
-  section #intro-services #arrow-right {
-    display: none;
-  }
-  section #intro-services .col-12 {
-    margin: auto !important;
-    margin-top: 20px !important;
-    text-align: center !important;
-  }
-}
-
-@media (min-width: 1001px) {
-  section #intro-services #arrow-down {
-    display: none;
-  }
-}
-
 section .service {
   width: 80%;
   margin: auto;
@@ -108,44 +75,26 @@ section .service {
   border: solid gray 1px;
 }
 
-section .service span {
-  color: #037272;
-}
-
 section .service h2 {
+  text-align: center;
   color: #037272;
 }
 
-@media (max-width: 500px) {
-  section .service h2 {
-    text-align: center;
-  }
-}
-
-section .service img {
-  max-height: 100px;
-  width: auto;
-  display: block;
-  float: right;
-  margin: 10px;
-}
-
-@media (max-width: 500px) {
-  section .service img {
-    float: none;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-}
-
-section a {
+section .service a {
   color: #79fbfb;
-  display: block;
+  display: inline-block;
   width: 120px;
   height: 50px;
   background-color: #037272;
   text-align: center;
   padding-top: 13px;
 }
-/*# sourceMappingURL=services.css.map */
+
+section .service img {
+  display: block;
+  height: 150px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=future-services.css.map */
