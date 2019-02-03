@@ -64,11 +64,23 @@ section #carouselExampleFade {
   padding-bottom: 20px;
 }
 
+@media (max-width: 990px) {
+  section #carouselExampleFade {
+    width: 100% !important;
+  }
+}
+
 section #carouselExampleFade #carousel-inner {
   width: 500px !important;
 }
 
+@media (max-width: 990px) {
+  section #carouselExampleFade #carousel-inner {
+    width: 100% !important;
+  }
+}
+
 section #carouselExampleFade #carousel-inner img {
-  width: 100%;
+  width: 100% !important;
 }
 /*# sourceMappingURL=index.css.map */

@@ -28,11 +28,18 @@ section {
         padding-top: 20px;
         padding-bottom: 20px;
 
+        @media (max-width: 990px){
+            width: 100% !important;
+        }
+
         #carousel-inner {
             width: 500px !important;
+            @media (max-width: 990px){
+                width: 100% !important;
+            }
 
             img {
-                width: 100%;
+                width: 100% !important;
             }
         }
         
