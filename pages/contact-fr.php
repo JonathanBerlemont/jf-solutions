@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -30,18 +30,22 @@
             <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link" href="../index-fr.html">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./services.html">Our services</a>
+                        <a class="nav-link" href="./services-fr.html">Nos services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About us</a>
+                        <a class="nav-link" href="./about-fr.html">A propos de nous</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
+                <div id="langues">
+                    <a href="./contact.php"><img src="../img/gb-flag.png" alt="" style="height:15px;margin-top: -28px"></a>
+                    <a href=""><img src="../img/fr-flag.png" alt="" style="height:15px;margin-top: -28px"></a>
+                </div>
             </div>
         </nav>
     </header>
@@ -49,8 +53,8 @@
     <section class="shadow pb-5">
         <h1><strong>Contact</strong></h1>
 
-        <div id="forms" class="w-50 mx-auto" method="post">
-            <form>
+        <div id="forms" class="w-50 mx-auto" >
+            <form method="post">
                 <div class="row">
                     <div class="col-12 col-lg-6 mt-4">
                         <input type="text" class="form-control" placeholder="First name" name="firstName" required>
@@ -59,7 +63,7 @@
                         <input type="text" class="form-control" placeholder="Last name" name="lastName" required>
                     </div>
                     <div class="col-12 col-lg-6 mt-4">
-                        <input type="text" class="form-control" placeholder="Email" name="email" required>
+                        <input type="email" class="form-control" placeholder="Email" name="email" required>
                     </div>
                 </div>
 
@@ -68,7 +72,8 @@
                     <textarea class="form-control" id="msg" rows="3" name="message" required></textarea>
                 </div>
 
-                <button id="submitButton" class="btn mb-5" action="../src/php/sendMail.php">Submit message</button>
+                <input type="submit" id="submitButton" value="Submit" class="btn mb-5">
+                <?php include "../src/php/sendMail.php"; ?>
             </form>
 
             <div id="info" class="text-center mx-auto pt-4">

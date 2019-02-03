@@ -36,6 +36,13 @@ header nav ul li a {
   }
 }
 
+@media (max-width: 990px) {
+  header nav #langues {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+
 body {
   background-image: url("../../img/background-1.png");
   background-attachment: fixed;

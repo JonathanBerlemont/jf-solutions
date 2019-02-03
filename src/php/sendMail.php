@@ -1,8 +1,11 @@
 <?php
-if (!empty($_POST['firstName']) && !empty($_POST['lastName']) && !empty($_POST['message'])) {
-   $message =  htmlspecialchars($_POST['message']);
-   $from = htmlspecialchars($_POST['lastName'])." ".htmlspecialchars($_POST['firstName']);
+ini_set('SMTP','smtp.jf-solutions.com');
+if (isset($_POST['firstName']) && isset($_POST['lastName']) && isset($_POST['message'])) {
+    $email_to = 'info@jf-solutions.be';
+    $subject = 'Mail from website';
+    $message =  htmlspecialchars($_POST['message']);
+    $from = htmlspecialchars($_POST['lastName'])." ".htmlspecialchars($_POST['firstName']);
 
-   mail('info@jf-solutions.be','Mail from website', $message, $from);
+   mail($email_to, $subject, $message, $from);
 }
 ?>

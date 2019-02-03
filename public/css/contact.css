@@ -36,6 +36,13 @@ header nav ul li a {
   }
 }
 
+@media (max-width: 990px) {
+  header nav #langues {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+
 /*!
  * Font Awesome Free 5.6.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -5644,7 +5651,9 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-image: url("../../img/background-1.jpg");
+  background-image: url("../../img/background-1.png");
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 section {

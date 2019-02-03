@@ -32,6 +32,14 @@ header {
                     }
                 }
             }
+        }
+        #langues {
+            //les choix de langues
+            @media (max-width: 990px){
+                //Pour le moment ou la barre est réduite en bouton
+                margin-top: 15px;
+                text-align: center;
+            }
         }  
     }
 }
