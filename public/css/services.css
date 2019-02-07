@@ -70,17 +70,21 @@ section h1 span {
 
 section #services-list {
   font-size: 25px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 section #intro-services {
   margin: auto;
-  width: 80%;
-  font-size: 25px;
+  width: 90%;
+  font-size: 22px;
 }
 
 section #intro-services span {
   color: #037272;
+}
+
+section #intro-services .intro-text {
+  margin-top: 35px !important;
 }
 
 @media (max-width: 1000px) {
