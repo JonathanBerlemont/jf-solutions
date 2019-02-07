@@ -100,9 +100,13 @@ section #intro-services span {
   }
 }
 
+section #lower-row {
+  margin-top: -35px;
+}
+
 section .service {
   width: 80%;
-  margin: auto;
+  height: 80%;
   margin-top: 50px;
   padding: 15px;
   border: solid gray 1px;
