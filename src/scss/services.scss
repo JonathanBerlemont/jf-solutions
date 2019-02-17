@@ -69,9 +69,13 @@ section {
         }
     }
 
+    #lower-row {
+        margin-top: -35px;
+    }
+    
     .service {
         width: 80%;
-        margin: auto;
+        height: 80%;
         margin-top: 50px;
         padding: 15px;
         border: solid gray 1px;
