@@ -97,4 +97,8 @@ section .service img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+span strong {
+  color: #037272;
+}
 /*# sourceMappingURL=future-services.css.map */
