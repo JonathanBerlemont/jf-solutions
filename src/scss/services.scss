@@ -60,7 +60,7 @@ section {
             }
         }
 
-        @media (min-width: 1001px) {
+        @media (min-width: 1000px) {
             #arrow-down {
                 display: none;
             }
@@ -69,6 +69,10 @@ section {
 
     #lower-row {
         margin-top: -35px;
+
+        @media (max-width: 1000px) {
+            margin-top: 0;
+        }
     }
     
     .service {
@@ -77,6 +81,11 @@ section {
         margin-top: 50px;
         padding: 15px;
         border: solid gray 1px;
+
+        @media (max-width: 1000px) {
+            height: auto !important;
+            margin: 25px auto !important;
+        }
 
         span {
             color: color(primary-mid);

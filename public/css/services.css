@@ -5,7 +5,7 @@ header {
   top: 0;
   z-index: 2;
   background-image: url(../../img/HeaderBackGnd.png);
-  background-position: center;
+  background-position: right;
 }
 
 header nav .navbar-brand img {
@@ -96,7 +96,7 @@ section #intro-services span {
   }
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 1000px) {
   section #intro-services #arrow-down {
     display: none;
   }
@@ -106,12 +106,25 @@ section #lower-row {
   margin-top: -35px;
 }
 
+@media (max-width: 1000px) {
+  section #lower-row {
+    margin-top: 0;
+  }
+}
+
 section .service {
   width: 80%;
   height: 80%;
   margin-top: 50px;
   padding: 15px;
   border: solid gray 1px;
+}
+
+@media (max-width: 1000px) {
+  section .service {
+    height: auto !important;
+    margin: 25px auto !important;
+  }
 }
 
 section .service span {

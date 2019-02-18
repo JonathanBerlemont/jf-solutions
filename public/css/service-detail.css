@@ -5,7 +5,7 @@ header {
   top: 0;
   z-index: 2;
   background-image: url(../../img/HeaderBackGnd.png);
-  background-position: center;
+  background-position: right;
 }
 
 header nav .navbar-brand img {
@@ -32,6 +32,13 @@ header nav ul li a {
 @media (max-width: 990px) {
   header nav ul li a {
     margin-top: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 990px) {
+  header nav #langues {
+    margin-top: 15px;
     text-align: center;
   }
 }
