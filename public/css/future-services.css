@@ -5,7 +5,7 @@ header {
   top: 0;
   z-index: 2;
   background-image: url(../../img/HeaderBackGnd.png);
-  background-position: center;
+  background-position: right;
 }
 
 header nav .navbar-brand img {
@@ -96,5 +96,9 @@ section .service img {
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+span strong {
+  color: #037272;
 }
 /*# sourceMappingURL=future-services.css.map */

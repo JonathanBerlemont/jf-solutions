@@ -5,7 +5,7 @@ header {
   top: 0;
   z-index: 2;
   background-image: url(../../img/HeaderBackGnd.png);
-  background-position: center;
+  background-position: right;
 }
 
 header nav .navbar-brand img {
@@ -50,7 +50,7 @@ body {
 }
 
 section {
-  width: 700px;
+  max-width: 700px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -60,8 +60,7 @@ section {
 section #carouselExampleFade {
   width: 600px;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 @media (max-width: 990px) {
@@ -72,12 +71,6 @@ section #carouselExampleFade {
 
 section #carouselExampleFade #carousel-inner {
   width: 500px !important;
-}
-
-@media (max-width: 990px) {
-  section #carouselExampleFade #carousel-inner {
-    width: 100% !important;
-  }
 }
 
 section #carouselExampleFade #carousel-inner img {

@@ -47,22 +47,20 @@ section {
             color: color(primary-mid);
         }
 
-        .intro-text {
-            margin-top: 35px !important;
-        }
-
         @media (max-width: 1000px) {
             #arrow-right {
                 display: none;
             }
             .col-12{
-                margin: auto !important;
                 margin-top: 20px !important;
-                text-align: center !important;
+                p {
+                    margin: auto !important;
+                    text-align: center !important;
+                }
             }
         }
 
-        @media (min-width: 1001px) {
+        @media (min-width: 1000px) {
             #arrow-down {
                 display: none;
             }
@@ -71,6 +69,10 @@ section {
 
     #lower-row {
         margin-top: -35px;
+
+        @media (max-width: 1000px) {
+            margin-top: 0;
+        }
     }
     
     .service {
@@ -79,6 +81,11 @@ section {
         margin-top: 50px;
         padding: 15px;
         border: solid gray 1px;
+
+        @media (max-width: 1000px) {
+            height: auto !important;
+            margin: 25px auto !important;
+        }
 
         span {
             color: color(primary-mid);
