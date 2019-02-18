@@ -14,10 +14,5 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/JonathanBerlemont/JF-Solution/issues"
-  },
-  "dependencies": {
-    "popper.js": "~1.14.6",
-    "jquery": "~3.3.1",
-    "bootstrap": "~4.2.1"
   }
 }
