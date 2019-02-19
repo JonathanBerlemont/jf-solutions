@@ -50,10 +50,10 @@
             <form method="post">
                 <div class="row">
                     <div class="col-12 col-lg-6 mt-4">
-                        <input type="text" class="form-control" placeholder="First name" name="firstName" required>
+                        <input type="text" class="form-control" placeholder="Prénom" name="firstName" required>
                     </div>
                     <div class="col-12 col-lg-6 mt-4">
-                        <input type="text" class="form-control" placeholder="Last name" name="lastName" required>
+                        <input type="text" class="form-control" placeholder="Nom" name="lastName" required>
                     </div>
                     <div class="col-12 col-lg-6 mt-4">
                         <input type="email" class="form-control" placeholder="Email" name="email" required>
@@ -65,7 +65,7 @@
                     <textarea class="form-control" id="msg" rows="3" name="message" required></textarea>
                 </div>
 
-                <input type="submit" id="submitButton" value="Submit" class="btn mb-5">
+                <input type="submit" id="submitButton" value="Envoyer" class="btn mb-5">
                 <?php include "../src/php/sendMail.php"; ?>
             </form>
 
