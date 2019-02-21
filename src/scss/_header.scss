@@ -1,3 +1,13 @@
+$colors: (
+    primary: rgb(121,251,251),
+    primary-mid: darken(rgb(121,251,251), 50%),
+    primary-dark: darken(rgb(121,251,251), 65%),
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
 header {
     margin: auto;
     position: sticky;
@@ -41,5 +51,25 @@ header {
                 text-align: center;
             }
         }  
+    }
+}
+
+//Scrollbar de la page
+
+//Largeur
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+//Background
+::-webkit-scrollbar-track {
+    background-color: darken(color(primary-mid), 10%);
+}
+
+//Section qui bouge
+::-webkit-scrollbar-thumb {
+    background-color: color(primary-mid);
+    &:hover {
+        background-color: darken(color(primary-mid), 5%);
     }
 }

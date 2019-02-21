@@ -43,6 +43,22 @@ header nav ul li a {
   }
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #024040;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #037272;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #035959;
+}
+
 body {
   background-image: url("../../img/background-1.png");
   background-attachment: fixed;
