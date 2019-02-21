@@ -111,6 +111,7 @@ body {
             border-radius: 10px;
 
             &:hover {
+                transition-duration: 0.3s;
                 text-decoration: none;
                 background-color: color(primary-mid);
                 color: color(primary);

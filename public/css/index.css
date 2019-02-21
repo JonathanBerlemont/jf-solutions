@@ -181,6 +181,8 @@ body {
 }
 
 #section-links div a:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
   text-decoration: none;
   background-color: #037272;
   color: #79fbfb;
