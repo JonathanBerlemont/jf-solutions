@@ -16,36 +16,36 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#"><img src="./img/logo-1.png" alt=""></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/services.html">Our services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/about.html">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/contact.php">Contact</a>
-                    </li>
-                </ul>
-                <div id="langues">
-                    <a href=""><img src="./img/gb-flag.png" alt="" style="height:15px;margin-top: -28px"></a>
-                    <a href="./index-fr.html"><img src="./img/fr-flag.png" alt=""
-                            style="height:15px;margin-top: -28px"></a>
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse w-50" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/services.html">Our services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/contact.php">Contact</a>
+                </li>
+            </ul>
+            <div id="langues">
+                <a href=""><img src="./img/gb-flag.png" alt="" style="height:15px;margin-top: -28px"></a>
+                <a href="./index-fr.html"><img src="./img/fr-flag.png" alt=""
+                    style="height:15px;margin-top: -28px"></a>
                 </div>
             </div>
         </nav>
     </header>
-
-    <section class="shadow">
+    
+    <section class="shadow" id="section-carousel">
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -53,24 +53,30 @@
             </ol>
             <div class="carousel-inner">
                 <a href="./pages/services.html">
-
+                    
                     <div class="carousel-item active" data-interval="100">
                         
                     </div>
-
+                    
                     <div class="carousel-item" data-interval="26000">
                         <video src="./img/jFS-Zoom-Service-VLR-EN.mp4" type="video/mp4" class="d-block w-100" autoplay loop muted></video>
                     </div>
-
+                    
                     <div class="carousel-item" data-interval="23000">
                         <video src="./img/jFS-Innovation-VLR-EN.mp4" type="video/mp4" class="d-block w-100" autoplay loop muted></video>
                     </div>
-
+                    
                 </a>
             </div>
         </div>
     </section>
-
+    
+    <section id="section-links">
+        <div class="waiting" id="div-services"><a class="shadow" href="./pages/services.html">Our Services</a></div>
+        <div class="waiting" id="div-about"><a class="shadow" href="./pages/about.html">About us</a></div>
+        <div class="waiting" id="div-contact"><a class="shadow" href="./pages/contact.php">Contact</a></div>
+    </section>
+    
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./src/js/index.js"></script>

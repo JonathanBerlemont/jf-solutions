@@ -43,43 +43,75 @@ header nav ul li a {
   }
 }
 
-@-webkit-keyframes popIn {
+@-webkit-keyframes popInCarousel {
   0% {
     -webkit-transform: scale(0);
             transform: scale(0);
-    height: 10px;
+    height: 0;
   }
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    height: 468px;
     width: auto;
+    height: 468px;
   }
 }
 
-@keyframes popIn {
+@keyframes popInCarousel {
   0% {
     -webkit-transform: scale(0);
             transform: scale(0);
-    height: 10px;
+    height: 0;
   }
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
-    height: 468px;
     width: auto;
+    height: 468px;
   }
+}
+
+@-webkit-keyframes slideFromRight {
+  0% {
+    -webkit-transform: translateX(3000px);
+            transform: translateX(3000px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    -webkit-transform: translateX(3000px);
+            transform: translateX(3000px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.slideFromRight {
+  -webkit-animation: slideFromRight 3s;
+          animation: slideFromRight 3s;
+}
+
+.waiting {
+  display: none !important;
 }
 
 body {
   background-image: url("../../img/background-1.png");
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
+  background-position: left;
 }
 
-section {
-  -webkit-animation: popIn 5s;
-          animation: popIn 5s;
+#section-carousel {
+  -webkit-animation: popInCarousel 5s;
+          animation: popInCarousel 5s;
   max-width: 840px;
   margin: auto;
   margin-top: 50px;
@@ -87,23 +119,71 @@ section {
   background-color: white;
 }
 
-section #carouselExampleIndicators {
+#section-carousel #carouselExampleIndicators {
   width: 800px;
   margin: auto;
   padding: 20px;
 }
 
 @media (max-width: 990px) {
-  section #carouselExampleIndicators {
+  #section-carousel #carouselExampleIndicators {
     width: 100% !important;
   }
 }
 
-section #carouselExampleIndicators #carousel-inner {
+#section-carousel #carouselExampleIndicators #carousel-inner {
   width: 500px !important;
 }
 
-section #carouselExampleIndicators #carousel-inner img {
+#section-carousel #carouselExampleIndicators #carousel-inner img {
   width: 100% !important;
+}
+
+#section-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 650px) {
+  #section-links {
+    display: block;
+  }
+  #section-links div {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 !important;
+  }
+  #section-links a {
+    margin: auto;
+  }
+}
+
+#section-links div {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+
+#section-links div a {
+  display: block;
+  background-color: white;
+  color: #037272;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+#section-links div a:hover {
+  text-decoration: none;
+  background-color: #037272;
+  color: #79fbfb;
+  border: solid #012727;
 }
 /*# sourceMappingURL=index.css.map */
