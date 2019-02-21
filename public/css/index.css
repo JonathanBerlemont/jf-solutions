@@ -178,11 +178,11 @@ body {
   padding: 15px;
   width: 200px;
   border-radius: 10px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 #section-links div a:hover {
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
   text-decoration: none;
   background-color: #037272;
   color: #79fbfb;
