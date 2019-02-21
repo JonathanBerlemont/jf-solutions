@@ -1,7 +1,12 @@
 let vids = document.getElementsByTagName("video");
+let indicators = document.getElementsByClassName("carousel-indicators")[0];
 
 window.addEventListener("load", () => {
     vids[0].play;
+    indicators.style.display = "none";
+    setTimeout(() => {
+        indicators.style.display = "";
+    }, 5000);
 })
 
 let check = () => {

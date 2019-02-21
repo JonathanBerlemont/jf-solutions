@@ -43,6 +43,38 @@ header nav ul li a {
   }
 }
 
+@-webkit-keyframes popIn {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    height: 10px;
+    background-color: #012727;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    height: 468px;
+    width: auto;
+    background-color: white;
+  }
+}
+
+@keyframes popIn {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    height: 10px;
+    background-color: #012727;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    height: 468px;
+    width: auto;
+    background-color: white;
+  }
+}
+
 body {
   background-image: url("../../img/background-1.png");
   background-attachment: fixed;
@@ -50,6 +82,8 @@ body {
 }
 
 section {
+  -webkit-animation: popIn 5s;
+          animation: popIn 5s;
   max-width: 840px;
   margin: auto;
   margin-top: 50px;
