@@ -1,0 +1,38 @@
+$colors: (
+    primary: rgb(121,251,251),
+    primary-mid: darken(rgb(121,251,251), 50%),
+    primary-dark: darken(rgb(121,251,251), 65%),
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
+#navbar {
+    background-image: url(../../../public/img/HeaderBackGnd.png);
+    background-size: cover;
+
+    position: fixed;
+    top:0;
+    z-index: 10000;
+    width: 100%;
+
+
+    #nav-logo {
+        img {
+            height: 150px;
+        }
+    }
+    
+    #nav-items {
+        height: 60px;
+        .nav-item {
+            padding: 0 100px;
+            a {
+                color: color(primary-mid);
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+}
