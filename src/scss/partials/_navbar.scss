@@ -12,13 +12,13 @@ $colors: (
     background-image: url(../../../public/img/HeaderBackGnd.png);
     background-size: cover;
 
-    position: fixed;
     top:0;
     z-index: 10000;
     width: 100%;
 
 
     #nav-logo {
+        text-align: center;
         img {
             height: 150px;
         }
@@ -33,6 +33,19 @@ $colors: (
                 font-weight: bold;
                 font-size: 20px;
             }
+        }
+    }
+}
+.nav-scroll {
+    position: fixed;
+    #nav-logo {
+        position: absolute !important;
+        left: 15px !important;
+        display: flex;
+        align-content: center;
+
+        img {
+            height: 50px !important;
         }
     }
 }

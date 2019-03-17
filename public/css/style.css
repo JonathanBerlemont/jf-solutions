@@ -15995,10 +15995,13 @@ a.text-dark:hover, a.text-dark:focus {
 #navbar {
   background-image: url(../../../public/img/HeaderBackGnd.png);
   background-size: cover;
-  position: fixed;
   top: 0;
   z-index: 10000;
   width: 100%;
+}
+
+#navbar #nav-logo {
+  text-align: center;
 }
 
 #navbar #nav-logo img {
@@ -16019,6 +16022,24 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 20px;
 }
 
+.nav-scroll {
+  position: fixed;
+}
+
+.nav-scroll #nav-logo {
+  position: absolute !important;
+  left: 15px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.nav-scroll #nav-logo img {
+  height: 50px !important;
+}
+
 header {
   margin: 0;
 }
@@ -16035,17 +16056,25 @@ header .carousel-inner {
   height: 80vh;
 }
 
-#services h1 {
-  text-align: center;
-  font-size: 50px;
-  padding: 15px 0;
-}
-
 #services #background-div {
   background-image: url(../../../public/img/background-services.png);
 }
 
+#services h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 15px 0;
+  color: white;
+}
+
+#services hr {
+  width: 5%;
+  height: 10px;
+  background-color: white;
+}
+
 #services .container .service-item {
+  text-align: center;
   border: solid lightgray 1px;
   background-color: white;
 }

@@ -1,6 +1,6 @@
 <nav id="navbar">
     <!--Image-->
-    <div class="text-center" id="nav-logo">
+    <div id="nav-logo">
         <img src="../public/img/logo.png" alt="">
     </div>
 

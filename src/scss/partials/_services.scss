@@ -1,18 +1,24 @@
 #services {
     height: 80vh;
     
+    #background-div {
+        background-image: url(../../../public/img/background-services.png);
+    }
     h1 {
         text-align: center;
         font-size: 50px;
         padding: 15px 0;
+        color: white;
     }
-    #background-div {
-        
-        background-image: url(../../../public/img/background-services.png);
+    hr {
+        width: 5%;
+        height: 10px;
+        background-color: white;
     }
 
     .container {
         .service-item {
+            text-align: center;
             border: solid lightgray 1px;
             background-color: white;
             
