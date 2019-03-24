@@ -16052,10 +16052,6 @@ header .carousel-inner {
   width: 100%;
 }
 
-#services {
-  height: 80vh;
-}
-
 #services #background-div {
   background-image: url(../../../public/img/background-services.png);
 }
@@ -16068,7 +16064,7 @@ header .carousel-inner {
 }
 
 #services hr {
-  width: 5%;
+  width: 100px;
   height: 10px;
   background-color: white;
 }
@@ -16085,5 +16081,119 @@ header .carousel-inner {
 
 #services .container .service-item p {
   padding: 15px;
+}
+
+#about {
+  height: 80vh;
+}
+
+#about h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 15px 0;
+}
+
+#about hr {
+  width: 100px;
+  height: 10px;
+  background-color: black;
+}
+
+#about #img-and-links {
+  text-align: center;
+}
+
+#about #img-and-links img {
+  height: 350px;
+}
+
+#about #img-and-links i {
+  font-size: 50px;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+#accomplishments {
+  height: 80vh;
+}
+
+#accomplishments h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 15px 0;
+}
+
+#accomplishments hr {
+  width: 100px;
+  height: 10px;
+  background-color: black;
+}
+
+#accomplishments .acc-div {
+  padding: 0 100px;
+}
+
+#accomplishments .acc-div .col-2 {
+  padding: 20px;
+  margin: auto;
+}
+
+#accomplishments .acc-div .col-2 .acc-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+}
+
+#accomplishments .acc-div .col-2 .acc-wrapper:hover .acc-text {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  opacity: 1;
+}
+
+#accomplishments .acc-div .col-2 .acc-wrapper .acc-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  height: 100%;
+}
+
+#accomplishments .acc-div .col-2 .acc-wrapper .acc-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  height: 100%;
+  padding: 0 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-weight: bold;
+  opacity: 0;
+}
+
+#contact {
+  height: 80vh;
+}
+
+#contact h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 15px 0;
+}
+
+#contact #title-hr {
+  width: 100px;
+  height: 10px;
+  background-color: black;
+}
+
+#contact #submitButton {
+  border-color: black;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+#about {
+    height: 80vh;
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        padding: 15px 0;
+    }
+    hr {
+        width: 100px;
+        height: 10px;
+        background-color: black;
+    }
+
+    
+
+    #img-and-links {
+        text-align: center;
+        img {
+            height: 350px;
+        }
+        i {
+            font-size: 50px;
+        }
+    }
+}
