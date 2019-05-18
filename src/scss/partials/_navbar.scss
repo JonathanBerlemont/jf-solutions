@@ -11,41 +11,38 @@ $colors: (
 #navbar {
     background-image: url(../../../public/img/HeaderBackGnd.png);
     background-size: cover;
+    background-position-x: 50%;
 
     top:0;
     z-index: 10000;
     width: 100%;
-
-
-    #nav-logo {
-        text-align: center;
-        img {
-            height: 150px;
-        }
+    .navbar-brand {
+        display: none;
+        
     }
-    
-    #nav-items {
-        height: 60px;
-        .nav-item {
-            padding: 0 100px;
-            a {
-                color: color(primary-mid);
-                font-weight: bold;
-                font-size: 20px;
-            }
-        }
+
+}
+.scroll{
+    position: fixed !important;
+    #nav-logo {
+        display: none !important;
+    }
+    .navbar-brand{
+        display: block !important;
     }
 }
-.nav-scroll {
-    position: fixed;
-    #nav-logo {
-        position: absolute !important;
-        left: 15px !important;
-        display: flex;
-        align-content: center;
 
+#nav-logo{
+    @media (max-width:576px) {
+        display: none !important;
+    }
+}
+
+.navbar-brand{
+    @media (max-width:576px) {
+        display: block !important;
         img {
-            height: 50px !important;
+            width: 250px !important;
         }
     }
 }

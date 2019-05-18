@@ -15995,49 +15995,41 @@ a.text-dark:hover, a.text-dark:focus {
 #navbar {
   background-image: url(../../../public/img/HeaderBackGnd.png);
   background-size: cover;
+  background-position-x: 50%;
   top: 0;
   z-index: 10000;
   width: 100%;
 }
 
-#navbar #nav-logo {
-  text-align: center;
+#navbar .navbar-brand {
+  display: none;
 }
 
-#navbar #nav-logo img {
-  height: 150px;
+.scroll {
+  position: fixed !important;
 }
 
-#navbar #nav-items {
-  height: 60px;
+.scroll #nav-logo {
+  display: none !important;
 }
 
-#navbar #nav-items .nav-item {
-  padding: 0 100px;
+.scroll .navbar-brand {
+  display: block !important;
 }
 
-#navbar #nav-items .nav-item a {
-  color: #037272;
-  font-weight: bold;
-  font-size: 20px;
+@media (max-width: 576px) {
+  #nav-logo {
+    display: none !important;
+  }
 }
 
-.nav-scroll {
-  position: fixed;
-}
-
-.nav-scroll #nav-logo {
-  position: absolute !important;
-  left: 15px !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-.nav-scroll #nav-logo img {
-  height: 50px !important;
+@media (max-width: 576px) {
+  .navbar-brand {
+    display: block !important;
+  }
+  .navbar-brand img {
+    width: 250px !important;
+  }
 }
 
 header {
@@ -16052,8 +16044,21 @@ header .carousel-inner {
   width: 100%;
 }
 
+@media (min-width: 576px) {
+  #services {
+    height: 100vh;
+  }
+}
+
 #services #background-div {
   background-image: url(../../../public/img/background-services.png);
+  background-size: cover;
+}
+
+@media (min-width: 576px) {
+  #services #background-div {
+    height: 100vh;
+  }
 }
 
 #services h1 {
@@ -16069,22 +16074,14 @@ header .carousel-inner {
   background-color: white;
 }
 
-#services .container .service-item {
-  text-align: center;
-  border: solid lightgray 1px;
-  background-color: white;
+#services span strong {
+  color: #037272;
 }
 
-#services .container .service-item img {
-  width: 100%;
-}
-
-#services .container .service-item p {
-  padding: 15px;
-}
-
-#about {
-  height: 80vh;
+@media (min-width: 576px) {
+  #about {
+    height: 80vh;
+  }
 }
 
 #about h1 {
@@ -16195,5 +16192,9 @@ header .carousel-inner {
 
 #contact #submitButton {
   border-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 /*# sourceMappingURL=style.css.map */

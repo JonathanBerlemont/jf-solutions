@@ -1,7 +1,14 @@
 #services {
+    @media (min-width:576px) {
+        height: 100vh;
+    }
     
     #background-div {
         background-image: url(../../../public/img/background-services.png);
+        background-size: cover;
+        @media (min-width:576px) {
+            height: 100vh;
+        }
     }
     h1 {
         text-align: center;
@@ -15,19 +22,9 @@
         background-color: white;
     }
 
-    .container {
-        .service-item {
-            text-align: center;
-            border: solid lightgray 1px;
-            background-color: white;
-            
-            img {
-                width: 100%;
-            }
-            
-            p {
-                padding: 15px;
-            }
+    span{
+        strong{
+            color: color(primary-mid);
         }
     }
 }

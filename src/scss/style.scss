@@ -9,3 +9,7 @@
 @import "./partials/_about.scss";
 @import "./partials/_accomplishments.scss";
 @import "./partials/_contact.scss";
+
+html{
+    scroll-behavior: smooth;
+}

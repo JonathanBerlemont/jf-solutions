@@ -15,22 +15,26 @@
                 <div class="col-12 col-lg-6 mt-4">
                     <input type="email" class="form-control" placeholder="Email" name="email" required>
                 </div>
+                <div class="col-12">
+                    <textarea class="form-control my-4" id="msg" rows="3" name="message" required placeholder="Your message"></textarea>
+                </div>
             </div>
 
-            <div class="form-group my-4">
-                <textarea class="form-control" id="msg" rows="3" name="message" required placeholder="Your message"></textarea>
-            </div>
-
-            <input type="submit" id="submitButton" value="Submit" class="btn mb-5">
+            <button type="submit" class="btn btn-primary ml-3">Send</button>
         </form>
 
-        <div id="info" class="text-center mx-auto pt-4">
-            <i class="fas fa-phone"></i>
-            <p>+32 477 52 69 11</p>
-            <hr>
-            <i class="fas fa-envelope"></i>
-            <a class="d-block" href="mailto:info@jf-solutions.be">info@jf-solutions.be</a>
-            <hr>
+        <div id="info" class="text-center mx-auto pt-5 mt-5">
+            <div>
+                <i class="fas fa-phone"></i>
+                <p>+32 477 52 69 11</p>
+                <hr>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <a class="d-block" href="mailto:info@jf-solutions.be">info@jf-solutions.be</a>
+                <hr>
+            </div>
+                
         </div>
     </div>
 

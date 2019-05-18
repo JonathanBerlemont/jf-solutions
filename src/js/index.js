@@ -1,3 +1,3 @@
-import { setNavbar } from "./partials/_navbar";
+import { setNavbar } from "./partials/_navbar.js";
 
 setNavbar();
