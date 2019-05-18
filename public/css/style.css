@@ -16080,7 +16080,7 @@ header .carousel-inner {
 
 @media (min-width: 576px) {
   #about {
-    height: 80vh;
+    height: 100vh;
   }
 }
 
@@ -16196,5 +16196,9 @@ header .carousel-inner {
 
 html {
   scroll-behavior: smooth;
+}
+
+html span {
+  color: #037272;
 }
 /*# sourceMappingURL=style.css.map */

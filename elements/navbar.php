@@ -1,3 +1,15 @@
+<?php 
+
+if($_GET['lang'] == "fr"){
+    $lang = $fr;
+} elseif($_GET['lang'] == "en"){
+    $lang = $en;
+} else {
+    $lang = $fr;
+}
+
+?>
+
 <div id="navbar">
     <div id="nav-logo">
         <img src="../public/img/logo.png" alt="" class="d-block mx-auto">
@@ -11,11 +23,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
-                <a class="nav-item nav-link active" href="#">Home</a>
+                <a class="nav-item nav-link active" href="#"><?= $lang['home']?></a>
                 <a class="nav-item nav-link" href="#services">Services</a>
-                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#about"><?= $lang['about']?></a>
                 <!--<a class="nav-item nav-link" href="#">Accomplishments</a>-->
                 <a class="nav-item nav-link" href="#contact">Contact</a>
+                <a class="nav-item nav-link" href="/?lang=fr">
+                    <button type="submit" style="width:30px; padding: 0">
+                        <img src="../public/img/fr-flag.png" alt="" width="100%">
+                    </button>
+                </a>
+                <a class="nav-item nav-link" href="/?lang=en">
+                    <button type="submit" style="width:30px; padding: 0">
+                        <img src="../public/img/gb-flag.png" alt="" width="100%">
+                    </button>
+                </a>
             </div>
         </div>
     </nav>

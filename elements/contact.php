@@ -7,16 +7,16 @@
         <form method="post" action="../src/php/sendMail.php">
             <div class="row">
                 <div class="col-12 col-lg-6 mt-4">
-                    <input type="text" class="form-control" placeholder="First name" name="firstName" required>
+                    <input type="text" class="form-control" placeholder="<?= $lang['contact_firstname']?>" name="firstName" required>
                 </div>
                 <div class="col-12 col-lg-6 mt-4">
-                    <input type="text" class="form-control" placeholder="Last name" name="lastName" required>
+                    <input type="text" class="form-control" placeholder="<?= $lang['contact_lastname']?>" name="lastName" required>
                 </div>
                 <div class="col-12 col-lg-6 mt-4">
-                    <input type="email" class="form-control" placeholder="Email" name="email" required>
+                    <input type="email" class="form-control" placeholder="<?= $lang['contact_email']?>" name="email" required>
                 </div>
                 <div class="col-12">
-                    <textarea class="form-control my-4" id="msg" rows="3" name="message" required placeholder="Your message"></textarea>
+                    <textarea class="form-control my-4" id="msg" rows="3" name="message" required placeholder="<?= $lang['contact_message']?>"></textarea>
                 </div>
             </div>
 
