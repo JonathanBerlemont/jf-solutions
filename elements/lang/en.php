@@ -15,18 +15,18 @@ $en = [
         Delphi). Beside the generic development engineering skills, I acquired specific competences in
         technologies like piezo electric actuators, or closed loop injection control systems.</p>
 
-    <p><span>Innovation</span> is in my DNA. I’m inventor on numerous patents and I received the Delphi
-        Innovation Hall of Fame award.</p>
+    <p><span>Innovation</span> is in my DNA. I’m inventor on numerous patents.</p>
 
     <p>I will deliver creative and efficient <span>Solutions</span></p>
     <ul>
-        <li>New design from “white sheet”</li>
-        <li>Product optimization</li>
-        <li>Problem solving</li>
+        <li>Lead and Manage R&D project</li>
         <li>Product and System design</li>
-        <li>Modeling and Simulation</li>
-        <li>Development And Validation testing</li>
-        <li>Software and Firmware</li>
+        <li>Modeling and Simulation (AMEsim, Matlab, ANSYS)</li>
+        <li>New Test Equipment Hardware and Software, Design, Development, Procurement, Installation and Acceptance (Labview, National Instruments)</li>
+        <li>Software and Firmware Development (C, C++, Labview, Python, VB)</li>
+        <li>Test Execution and Data Processing, Analysis and Reporting</li>
+        <li>Development, Validation, Acceptance testing</li>
+        <li>Problem Solving</li>
         <li>and more ...</li>
     </ul>',
 

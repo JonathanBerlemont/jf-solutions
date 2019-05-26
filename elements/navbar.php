@@ -1,19 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"ea>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JF Solutions</title>
+
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="icon" href="./public/img/icone.png">
+</head>
+
+<body>
 <?php 
 
-if($_GET['lang'] == "fr"){
-    $lang = $fr;
-} elseif($_GET['lang'] == "en"){
-    $lang = $en;
+if(isset($_GET['lang'])){
+    if($_GET['lang'] == "fr"){
+        $lang = $fr;
+    } elseif($_GET['lang'] == "en"){
+        $lang = $en;
+    }   
 } else {
     $lang = $fr;
 }
-
 ?>
 
+
 <div id="navbar">
-    <div id="nav-logo">
-        <img src="../public/img/logo.png" alt="" class="d-block mx-auto">
-    </div>
     <nav class="navbar navbar-expand-lg navbar-light" style="height: 100px">
         <a class="navbar-brand position-absolute" href="#" id="brand-logo">
             <img src="../public/img/logo.png" alt="" width="300px">
@@ -26,7 +38,6 @@ if($_GET['lang'] == "fr"){
                 <a class="nav-item nav-link active" href="#"><?= $lang['home']?></a>
                 <a class="nav-item nav-link" href="#services">Services</a>
                 <a class="nav-item nav-link" href="#about"><?= $lang['about']?></a>
-                <!--<a class="nav-item nav-link" href="#">Accomplishments</a>-->
                 <a class="nav-item nav-link" href="#contact">Contact</a>
                 <a class="nav-item nav-link" href="/?lang=fr">
                     <button type="submit" style="width:30px; padding: 0">

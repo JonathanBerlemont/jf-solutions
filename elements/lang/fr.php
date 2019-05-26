@@ -18,18 +18,18 @@ $fr = [
         d\'ingéniérie, j\'ai acquis une expertise dans des technologies comme les actionneurs
         piézo-électriques, ou le contrôle d\'injection en boucle fermée.</p>
 
-    <p>L\'<span>Innovation</span> est dans mon ADN. Je suis l\'inventeur sur de nombreux brevets et j\'ai reçu
-        le prix "Delphi Innovation Hall of Fame".</p>
+    <p>L\'<span>Innovation</span> est dans mon ADN. Je suis l\'inventeur sur de nombreux brevets.</p>
 
     <p>Je fournirai des <span>Solutions</span> créatives et efficaces pour</p>
     <ul>
-        <li>Nouveau design à partir d\'un page blanche</li>
-        <li>Optimisation de produit</li>
-        <li>Résolution de problème</li>
-        <li>Design Produit et Système</li>
-        <li>Modelisation et Simulation</li>
-        <li>Test de Dévelopment et Validation</li>
-        <li>Software et Firmware</li>
+        <li>Diriger et gérer des projets de R&D</li>
+        <li>Conception Produit et Système</li>
+        <li>Conversion d’une Spécification d’Essais en nouvel Equipement, Hardware et Software, Design, Développement, Approvisionnement, Installation et Acceptation</li>
+        <li>Développement Software et Firmware</li>
+        <li>Exécution d’Essai et Traitement des Données, Analyse et Rapport d’Essai.</li>
+        <li>Essais de Développement, Validation et Acceptation</li>
+        <li>Modélisation et Simulation</li>
+        <li>Résolution de Problèmes</li>
         <li>et plus ...</li>
     </ul>',
 

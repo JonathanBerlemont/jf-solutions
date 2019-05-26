@@ -15997,24 +15997,21 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: cover;
   background-position-x: 50%;
   top: 0;
-  z-index: 10000;
   width: 100%;
+  position: fixed;
+  z-index: 10000;
 }
 
-#navbar .navbar-brand {
-  display: none;
+#navbar .navbar-collapse {
+  width: 100%;
+  z-index: 20000;
 }
 
-.scroll {
-  position: fixed !important;
-}
-
-.scroll #nav-logo {
-  display: none !important;
-}
-
-.scroll .navbar-brand {
-  display: block !important;
+@media (max-width: 1000px) {
+  #navbar .navbar-collapse {
+    padding-left: 20px;
+    background-color: #d3ecf1;
+  }
 }
 
 @media (max-width: 576px) {
@@ -16044,44 +16041,24 @@ header .carousel-inner {
   width: 100%;
 }
 
-@media (min-width: 576px) {
-  #services {
-    height: 100vh;
-  }
-}
-
 #services #background-div {
-  background-image: url(../../../public/img/background-services.png);
-  background-size: cover;
-}
-
-@media (min-width: 576px) {
-  #services #background-div {
-    height: 100vh;
-  }
+  background-color: #d3ecf1;
 }
 
 #services h1 {
   text-align: center;
   font-size: 50px;
   padding: 15px 0;
-  color: white;
 }
 
 #services hr {
   width: 100px;
   height: 10px;
-  background-color: white;
+  background-color: black;
 }
 
 #services span strong {
   color: #037272;
-}
-
-@media (min-width: 576px) {
-  #about {
-    height: 100vh;
-  }
 }
 
 #about h1 {
@@ -16175,7 +16152,7 @@ header .carousel-inner {
 }
 
 #contact {
-  height: 80vh;
+  background-color: #d3ecf1;
 }
 
 #contact h1 {

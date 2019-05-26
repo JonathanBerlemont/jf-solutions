@@ -12,24 +12,22 @@ $colors: (
     background-image: url(../../../public/img/HeaderBackGnd.png);
     background-size: cover;
     background-position-x: 50%;
-
     top:0;
-    z-index: 10000;
     width: 100%;
-    .navbar-brand {
-        display: none;
+    position: fixed;
+    z-index: 10000;
+
+
+    .navbar-collapse {
+        width: 100%;
+        z-index: 20000;
         
+        @media(max-width: 1000px) {
+            padding-left: 20px;
+            background-color: #d3ecf1;
+        }
     }
 
-}
-.scroll{
-    position: fixed !important;
-    #nav-logo {
-        display: none !important;
-    }
-    .navbar-brand{
-        display: block !important;
-    }
 }
 
 #nav-logo{

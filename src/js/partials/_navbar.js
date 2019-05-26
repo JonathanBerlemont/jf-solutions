@@ -6,18 +6,12 @@ export function setNavbar() {
     let header = document.getElementsByTagName("header")[0];
     let nav_logo = document.querySelector('#nav-logo');
 
-    let nav_logo_height = nav_logo.clientHeight +"px";
-    
+    let nav_height = navbar.clientHeight +"px";
 
+    let body = document.getElementsByTagName('body')[0];
 
-    window.addEventListener("scroll", () => {
-        if ((document.documentElement.scrollTop || document.body.scrollTop) > nav_logo.clientHeight) {  
-            navbar.classList.add('scroll');
-            header.style.paddingTop=nav_logo_height; 
-        } else {
-            navbar.classList.remove('scroll');
-            header.style.paddingTop=0
-        }
-    })
+    window.onload = () => {
+        body.style.paddingTop=nav_height;         
+    };
 
 }
