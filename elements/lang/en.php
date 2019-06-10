@@ -29,6 +29,9 @@ $en = [
         <li>Problem Solving</li>
         <li>and more ...</li>
     </ul>',
+    'service_intro' => '<p class="text-center"><strong>Mechanics, Mechatronics, Electromechanics, Hydraulics,
+    Pneumatics</strong></p>
+    <p class="text-center">Long or short mission, full or part time, on or off your site, we will offer you the flexibility you need in order to turn our ideas and solutions into your success</p>',
 
     'service_design' => '<h2 class=" text-center">Design</h2>
     <p>Starting from a white page, or from an existing product, we will bring the ideas and innovative

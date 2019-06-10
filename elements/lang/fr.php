@@ -32,6 +32,11 @@ $fr = [
         <li>Résolution de Problèmes</li>
         <li>et plus ...</li>
     </ul>',
+    'service_intro' => '<p class="text-center"><strong>Mécanique, Mécatronique, Electromécanique, Hydraulique,
+    Pneumatique</strong></p>
+    <p class="text-center">Mission de longue our courte durée, temps plein ou partiel, intégré ou détaché de votre équipe, nous vous offrons la flexibilité que vous désirez de façon à transformer nos idées
+    et solutions
+    en votre succès</p>',
 
     'service_design' => '<h2 class=" text-center">Design</h2>
         <p>Au départ d\'une page blanche, ou d\'un produit existant, nous vous apporterons les idées et

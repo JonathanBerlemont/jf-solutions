@@ -5,6 +5,7 @@
 
     <div id="forms" class="w-50 mx-auto" >
         <form method="post" action="../src/php/sendMail.php">
+            <input type="text" name="anti-spam" style="display: none">
             <div class="row">
                 <div class="col-12 col-lg-6 mt-4">
                     <input type="text" class="form-control" placeholder="<?= $lang['contact_firstname']?>" name="firstName" required>

@@ -2,6 +2,9 @@
     <div id="background-div">
         <h1>Services</h1>
         <hr>
+        <div class="mt-5" style="font-size: 20px">
+            <?= $lang['service_intro']?>
+        </div>
         <div class="pt-5">
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-md-6 col-xl-3">
